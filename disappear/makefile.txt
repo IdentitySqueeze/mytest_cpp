@@ -1,0 +1,10 @@
+CC = g++
+CFLAGS = -Wall -g
+
+mytest: mytest.o myUtils.o
+    $(CC) $(CFLAGS) -o mytest mytest.o myUtils.o
+
+mytest.o: mytest.cpp myUtils.cpp myUtils.h primes.h
+
+myUtils.o: myUtils.cpp myUtils.h primes.h
+

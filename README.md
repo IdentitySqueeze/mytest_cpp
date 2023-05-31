@@ -1,10 +1,9 @@
 
 # myTest
 
-The goal of this project was initially to help me to play catch-up with my mathematics.
+The goal of this project was initially a mathematics question and answer exploration, written as a desktop .NET project.
 
-Curiosity (or mission creep) has evolved this into a wider set of technologies (read, web & mobile plus well-known or popular languages).
-
+Curiosity (or mission creep) has evolved this into a wider set of technologies (web & mobile plus well-known or popular languages).
 
 ## Authors
 
