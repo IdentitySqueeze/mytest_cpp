@@ -404,13 +404,13 @@ int Utils::gjlib_notSq(int x, int y) {
 
 bool Utils::gjlib_isInt(double x) {
     if (x - (int)x == 0)
-        return 1;
-    return 0;
+        return true;
+    return false;
 }
 
 bool Utils::gjlib_isSquare(int x) {
     if (x < 4)
-        return 0;
+        return false;
     return gjlib_isInt(sqrt(x)) == 1;
 }
 
